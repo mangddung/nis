@@ -1,11 +1,12 @@
 body {
   margin: 0px;
+  font-family: sans-serif;
 }
 .head {
   border-bottom: solid 1px lightgray;
   padding: 10px;
   display: grid;
-  grid-template-columns: 20% 35% 45%;
+  grid-template-columns: 20% 35% 1fr;
 }
 .menu {
   margin-top: 20px;
@@ -18,14 +19,13 @@ body {
   border-right: solid 1px lightgray;
 }
 .menu2 {
-  font-family: sans-serif;
   font-size: 20px;
   font-weight: bold;
   border-bottom: solid 3px #445B89;
   padding: 15px;
   padding-top: 10px;
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 20% 1fr;
 }
 .group1 {
   border-left: 1px solid lightgray;
@@ -39,21 +39,17 @@ body {
   border-left: 1px solid lightgray;
 }
 /*
-.menu3 {
-  margin-left:250px;
-  margin-right:250px;
-  padding:350px;
-  background-image: url('./src/background1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 .slide{
-}
-#slideBG {
+  background-image: url('./src/background1.jpg');
   position: relative;
-  left:15%;
+  left:13%;
+  width: 1400px;
+  height: 650px;
+  background-repeat: no-repeat;
+} */
+
 }
-#slideTitle {
-  position: absolute;
-  left:15%;
+.slideTitle1 {
+  font-size: 30px;
+  font-weight: bold;
 }
